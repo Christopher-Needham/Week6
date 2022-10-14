@@ -4,9 +4,8 @@ import java.util.Collections;
 
 public class Deck {
 	int cardsInSuit = 13;
-	private String deck;
 	private Card card1 = new Card();
-	
+	// this is the method to assign the cards the suits and build the deck
 	protected ArrayList<String> getDeck() {
 	ArrayList<String> deck = new ArrayList<String>();	
 		for(int i = 0; i < cardsInSuit; i++) {
@@ -23,8 +22,6 @@ public class Deck {
 			}
 		
 		return deck;
-	
-	
 	}
 	
 		protected ArrayList<String> shuffleDeck(ArrayList<String> deck){
@@ -32,11 +29,5 @@ public class Deck {
 		return deck;
 		
 		}
-		
-//		protected Card playCard() {
-//		Card playedCard = this.deck.get(0);
-//		this.deck.remove(0);
-//		return playedCard;	
-//		}
-		
+	
 }

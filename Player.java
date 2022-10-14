@@ -26,10 +26,4 @@ public class Player {
 		String hand;
 		String firstName;
 		
-		
-			
-		
-
-			
-		
 }
