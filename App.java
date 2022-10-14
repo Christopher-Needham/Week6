@@ -61,11 +61,7 @@ public class App {
 			playerTwoDeck.add(deck1.get(1));
 			deck1.remove(0);
 			deck1.remove(0);
-			}
-			System.out.println(playerOneDeck);
-			System.out.println(playerTwoDeck);
-			
-			
+			}	
 		//this runs the game, it plays each card and compares them together.
 		for(int i =0;i<26;i++) {
 			playerOneCard = playerOneDeck.get(0);

@@ -15,15 +15,7 @@ public class Player {
 		public void setLastName(String lastName) {
 			this.lastName = lastName;
 		}
-		public String getHand() {
-			return hand;
-		}
-		public void setHand(String hand) {
-			this.hand = hand;
-		}
-		
 		String lastName;
-		String hand;
 		String firstName;
 		
 }

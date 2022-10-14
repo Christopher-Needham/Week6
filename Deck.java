@@ -23,7 +23,7 @@ public class Deck {
 		
 		return deck;
 	}
-	
+		// Function to shuffle the deck
 		protected ArrayList<String> shuffleDeck(ArrayList<String> deck){
 		Collections.shuffle(deck);
 		return deck;
